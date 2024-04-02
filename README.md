@@ -3,7 +3,7 @@ A fast, GUI based application, to gain insights into Formula 1 telemetry data.
 
 **Hamilton to Ferrari!!**
 
-Query every race and each driver for the 2018-2023 racing seasons. Built leveraging theOehrly's [FastF1](https://github.com/theOehrly/Fast-F1) python package for race data and [PyQt5](https://pypi.org/project/PyQt5/) for the GUI. Currently tested on Windows based operating systems.
+Query every race and each driver for the 2018-2024 racing seasons. Built leveraging theOehrly's [FastF1](https://github.com/theOehrly/Fast-F1) python package for race data and [PyQt5](https://pypi.org/project/PyQt5/) for the GUI. Currently tested on Windows based operating systems.
 
 ![](/mkdwn/demo.gif)
 
@@ -17,7 +17,7 @@ At the end of each race, Formula 1 releases race data which FastF1 has been buil
 - Run `gui.py` to start the program.
 - The proper file directory will be created, and the GUI pictured above will open. You can begin running analyses.
 - Each time you want to launch the program, run `gui.py`.
-- The program makes use of a cache system, allowing it to access previously queried race data. This data can be found in the `/cache` folder and cleared if the file size becomes too large. 
+- The program makes use of a cache system, allowing it to access previously queried race data. This data can be found in the `/formula/cache` folder and cleared if the file size becomes too large. 
 - Compatible with python v3.7 - 3.10.
 
 ## Usage
